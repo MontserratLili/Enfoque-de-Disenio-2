@@ -8,12 +8,14 @@
 
 /*TAMAÑOS DE LETRA*/
 
+.chica{
+    font-size: 17px;
+}
 .mediana{
     font-size: 20px;
-    
 }
 .grande{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 /*FUENTES*/
@@ -31,7 +33,6 @@
 /*PRIMERA SECCIÓN - MENÚ*/
 .cabecera{
     display: flex;
-    
 }
 .contenedor{
     display: flex;
@@ -52,30 +53,109 @@
     justify-content: flex-start;
 }
 
-li{ 
+.menu{ 
     align-content: space-around;
     align-items: flex-end;
     list-style: none;
-    padding: 20px 60px 20px 20px;
+    padding: 20px 30px 20px 20px;
+    text-align: center;
 }
 a{
     text-decoration: none;
     color: magenta;
     font-weight: 900;
 }
+a:hover{
+    color:wheat;
+}
+.menu:hover{
+    border: 3px solid white;
+    color: wheat;
+    background-color: lightcoral;
+    opacity: 0.9;
+}
 
 /*SEGUNDA SECCIÓN - INICIO*/
 .segundaSeccion{
     background-color: black;
     height: 700px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
-.titulo{
+.nombre{
     color: aliceblue;
-    width: 80%;
+    text-align: center;
+}
+.banda{
+    padding: 0% 0 0 0;
+    width: 100%;
+    height: 95%;
+}
+
+/*TERCERA SECCIÓN - BIO*/
+.terceraSeccion{
+    display: flex;
+    flex-wrap: wrap;
+    height: 850px;
+    background-color: magenta;
+    padding: 1% 0 0 0;  
     
 }
-.fotoBanda{
+h1{
     width: 100%;
-    height: 100%;
+    text-align: center;
+    padding: 1% 0 1% 0;
+}
+.parrafosBio{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 5% 0 5%;
+}
+.imagen{
+    width: 20%;
+    height: 90%;
+    align-content: center;
+    margin: 0%;
+    border-radius: 5px;
+}
+.imagen:hover{
+    opacity: 0.9;
+}
+.parrafo{
+    padding: 0% 0% 0% 5%;
+    width: 80%;
+    text-align: justify;
+    color: white;
+}
+.discos{
+    list-style: none;
+    color: aliceblue;
+    flex-direction: row;
+    padding: 0%;
+    width: 80%;
+}
+.imagen2{
+    width: 70%;
+    height: 70%;
+    padding: 0 0 5% 0;
+    border-radius: 5px;
+    }
+.imagen2:hover{
+    opacity: 0.9;
+}
+.parrafo2{
+    padding: 3% 5% 0% 0%;
+    width: 30%;
+    text-align: justify;
    
 }
+
+/*CUARTA SECCIÓN - INICIO*/
+
+
+
+
+
+
