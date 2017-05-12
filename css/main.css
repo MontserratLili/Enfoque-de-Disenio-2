@@ -12,6 +12,9 @@
     font-size: 20px;
     
 }
+.grande{
+    font-size: 60px;
+}
 
 /*FUENTES*/
 
@@ -35,6 +38,8 @@
     background-color: black;
     width: 100%;
     flex-wrap: wrap;
+    position: fixed;
+    opacity: 0.6;
 }
 .cont{
     display: flex;
@@ -57,4 +62,20 @@ a{
     text-decoration: none;
     color: magenta;
     font-weight: 900;
+}
+
+/*SEGUNDA SECCIÓN - INICIO*/
+.segundaSeccion{
+    background-color: black;
+    height: 700px;
+}
+.titulo{
+    color: aliceblue;
+    width: 80%;
+    
+}
+.fotoBanda{
+    width: 100%;
+    height: 100%;
+   
 }
