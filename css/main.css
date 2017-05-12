@@ -1,0 +1,60 @@
+/*RESET GENERAL*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*TAMAÑOS DE LETRA*/
+
+.mediana{
+    font-size: 20px;
+    
+}
+
+/*FUENTES*/
+
+.fuentePizarra{
+    font-family: 'Fredericka the Great', cursive;
+}
+.fuenteElegante{
+    font-family: 'Cinzel Decorative', cursive;
+}
+.fuenteNormal{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*PRIMERA SECCIÓN - MENÚ*/
+.cabecera{
+    display: flex;
+    
+}
+.contenedor{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.cont{
+    display: flex;
+    width: 50%;
+}
+
+.logo{
+    width: 150px;
+    height: 80px;
+    justify-content: flex-start;
+}
+
+li{ 
+    align-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+    padding: 20px 60px 20px 20px;
+}
+a{
+    text-decoration: none;
+    color: magenta;
+    font-weight: 900;
+}
